@@ -1,0 +1,22 @@
+/*$accentColor1: green;*/
+
+.skillDot {
+    height: 15px;
+    width: 15px;
+    border: 1px solid black;
+    background-color: white;
+    color: grey;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.skillDot-selected{
+    background-color:green;
+}
+
+.dotContainer {
+    background-color: white;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
