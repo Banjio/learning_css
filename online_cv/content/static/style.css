@@ -7,16 +7,18 @@
     background-color: white;
     color: grey;
     border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
     display: inline-block;
 }
 
 .skillDot-selected{
-    background-color:green;
+    background-color:#009688;
 }
 
 .dotContainer {
     background-color: white;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    justify-content: flex-left;
+    
 }
