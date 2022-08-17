@@ -22,3 +22,9 @@
     justify-content: flex-left;
     
 }
+
+#leftColumnContainer {
+    position: relative;
+    top: 50%;
+    right: 50%;
+}
