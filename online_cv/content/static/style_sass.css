@@ -1,3 +1,14 @@
+/* For converting to PDF */
+body {
+  width: 210mm;
+  /* A4 dimension */
+}
+
+@page {
+  margin: 0;
+  padding: 0;
+}
+
 .skillDot {
   height: 15px;
   width: 15px;
@@ -28,6 +39,10 @@
   background-color: #8d73ca;
 }
 
+.date-color {
+  color: #8d73ca;
+}
+
 .stickyFooter {
   /**position: fixed;
     text-align: center;
@@ -36,7 +51,11 @@
     width: 100%;
     color: black; 
     **/
+  position: -webkit-sticky;
+  position: sticky;
   background-color: #8d73ca;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 
 #leftColumnContainer {

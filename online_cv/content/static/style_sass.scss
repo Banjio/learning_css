@@ -2,6 +2,16 @@ $accentColor1:#009688;
 
 $accentColor2: #8d73ca;
 
+/* For converting to PDF */
+body {
+    width: 210mm; /* A4 dimension */
+  }
+  @page {
+    margin:0;
+    padding: 0;
+  }
+  
+
 .skillDot {
     height: 15px;
     width: 15px;
@@ -29,6 +39,10 @@ $accentColor2: #8d73ca;
     background-color: $accentColor2;
 }
 
+.date-color {
+    color: $accentColor2;
+}
+
 .stickyFooter {
     /**position: fixed;
     text-align: center;
@@ -37,6 +51,7 @@ $accentColor2: #8d73ca;
     width: 100%;
     color: black; 
     **/
+    position: sticky;
     background-color: $accentColor2;
     flex-shrink: 0;
 
