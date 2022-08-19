@@ -3,15 +3,15 @@ $accentColor1:#009688;
 $accentColor2: #8d73ca;
 
 /* For converting to PDF */
+/**
 body {
-    width: 210mm; /* A4 dimension */
+    width: 210mm;  
   }
   @page {
     margin:0;
     padding: 0;
   }
-  
-
+**/
 .skillDot {
     height: 15px;
     width: 15px;
